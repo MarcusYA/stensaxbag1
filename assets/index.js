@@ -1,12 +1,12 @@
 const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
 const resultText = document.querySelector("#resultText");
-const choiceBtn = document.querySelectorAll(".choiceBtn");
+const choiceBtns = document.querySelectorAll(".choiceBtn");
 let player;
 let computer;
 let result; 
 
-choiceBtn.forEach(button => button.addEventListener("click", () => { 
+choiceBtns.forEach(button => button.addEventListener("click", () => { 
 
     player = button.textContent;
     computerTurn();
@@ -16,7 +16,7 @@ choiceBtn.forEach(button => button.addEventListener("click", () => {
 }));
 
 function computerTurn(){
-    const randNum = Math.floor(math.random() * 3) + 1;
+    const randNum = Math.floor(Math.random() * 3) + 1;
 
     switch(randNum){
         case 1:
