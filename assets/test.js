@@ -1,2 +1,5 @@
 const playerText = document.querySelector("#playerText");
-console.log(playerText);
+const computerText = document.querySelector("#computerText");
+const result = document.querySelector("#result");
+
+

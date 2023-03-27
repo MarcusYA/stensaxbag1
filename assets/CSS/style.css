@@ -1,0 +1,25 @@
+#gameDiv{
+    font-family: 'poppins', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.gameText{
+    color: blue;
+
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    color: blue;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+
+}
